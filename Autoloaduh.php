@@ -1,5 +1,5 @@
 <?php
-class AutoLoader{
+class Autoloaduh{
 	/**
 	* Register a PSR-4 autoloader
 	* 
@@ -40,9 +40,10 @@ class AutoLoader{
 	}
 	
 	/**
-	* Register a autoloader for one or more dirs
+	* Register an autoloader for one or more dirs
 	* For classes not using namespaces 
 	* PHP-file is class name + '.php'
+	* Note this is not PSR0
 	*  
 	* @param mixed $dirs either array of string or scalar string, dir of dirs where class is to be sought
 	*/
